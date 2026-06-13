@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #7a0019, #b11226, #d72638);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.star {
+    position: fixed;
+    color: white;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+}
+
+h1 {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-10px);
+    }
+}
